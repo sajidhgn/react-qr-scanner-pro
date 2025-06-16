@@ -1,0 +1,44 @@
+{
+  "name": "react-qr-scanner-pro",
+  "version": "1.0.0",
+  "description": "A lightweight React QR scanner package with separate camera and image upload components",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "prepare": "npm run build",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "react",
+    "qr",
+    "scanner",
+    "qrcode",
+    "camera",
+    "upload"
+  ],
+  "author": "Sajidhgn",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "dependencies": {
+    "jsqr": "^1.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.0",
+    "@babel/preset-env": "^7.22.0",
+    "@babel/preset-react": "^7.22.0",
+    "@rollup/plugin-babel": "^6.0.0",
+    "@rollup/plugin-commonjs": "^25.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.0",
+    "rollup": "^3.0.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4"
+  }
+}
