@@ -1,0 +1,1 @@
+# react-qr-scanner-pro
